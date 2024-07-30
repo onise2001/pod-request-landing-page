@@ -137,7 +137,7 @@ button:active {
     background-repeat: no-repeat;
     align-items: flex-start;
 
-    background-position: top right;
+    background-position:right top ;
   }
 
   header {
