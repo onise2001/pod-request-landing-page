@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  height: 100vh;
   padding-top: 67px;
   background-image: linear-gradient(
       rgba(18, 23, 37, 0.9),
@@ -239,7 +240,7 @@ button:active {
     background: url("./assets/desktop/bg-pattern-dots.svg"),
       url("./assets/desktop/image-host.jpg"), #121725;
     background-repeat: no-repeat;
-    background-position: bottom -45px right, top 130px right;
+    background-position: bottom 100px right, top 130px right;
   }
   header {
     padding: 102px 252px 113px 165px;
