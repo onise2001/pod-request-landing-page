@@ -12,9 +12,8 @@ html {
 }
 
 body {
-  height: 100vh;
   padding-top: 67px;
-  background-image: linear-gradient(
+  background: linear-gradient(
       rgba(18, 23, 37, 0.9),
       rgba(18, 23, 37, 0.9)
     ),
@@ -136,9 +135,9 @@ button:active {
     padding: 0;
     background: url("./assets/tablet/image-host.jpg"), #121725;
     background-repeat: no-repeat;
-    align-items: flex-start;
+    background-position: top right;
 
-    background-position:right top ;
+    align-items: flex-start;
   }
 
   header {
@@ -235,15 +234,15 @@ button:active {
 
 @media (min-width: 1440px) {
   body {
-    padding: 0;
+    padding: 0 0 252px 0;
 
     background: url("./assets/desktop/bg-pattern-dots.svg"),
       url("./assets/desktop/image-host.jpg"), #121725;
     background-repeat: no-repeat;
-    background-position: bottom 100px right, top 130px right;
+    background-position: bottom 200px right, top 130px right;
   }
   header {
-    padding: 102px 252px 113px 165px;
+    padding: 102px 0px 113px 165px;
     max-width: 388px;
   }
 
