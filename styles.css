@@ -13,10 +13,7 @@ html {
 
 body {
   padding-top: 67px;
-  background: linear-gradient(
-      rgba(18, 23, 37, 0.9),
-      rgba(18, 23, 37, 0.9)
-    ),
+  background: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),
     url("./assets/mobile/image-host.jpg");
   background-repeat: repeat, no-repeat;
   background-size: cover;
@@ -163,7 +160,7 @@ button:active {
     font-size: 4.8rem;
     line-height: 1.17;
     text-align: left;
-    width: 30ch;
+    
     margin: 0 0 35px 0;
   }
 
